@@ -1,1 +1,1 @@
-# Instant2fa-component
+# Instant2FA Component

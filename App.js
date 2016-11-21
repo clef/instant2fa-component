@@ -1,5 +1,5 @@
 import React from 'react';
-import Instant2FAComponent from './src/Instant2fa-component.jsx';
+import Instant2FAComponent from './src/Instant2FAComponent.jsx';
 
 const App = () => (
   <div>
