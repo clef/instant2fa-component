@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack-dev-server --inline --hot --port 3000",
+    "dev": "cd example && webpack-dev-server --inline --hot --port 3000",
     "compile": "npm-run-all --parallel compile:source compile:postcss",
     "compile:postcss": "postcss  --use precss --use postcss-cssnext -d lib src/*.css",
     "compile:source": "babel src --out-dir lib",
