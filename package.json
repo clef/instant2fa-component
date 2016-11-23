@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack-dev-server --inline --hot --port 3000",
+    "dev": "cd example && webpack-dev-server --inline --hot --port 3000",
     "compile": "npm-run-all --parallel compile:source compile:postcss",
     "compile:postcss": "postcss  --use precss --use postcss-cssnext -d lib src/*.css",
     "compile:source": "babel src --out-dir lib",
@@ -62,5 +62,8 @@
     "url-loader": "^0.5.7",
     "webpack": "^1.13.3",
     "webpack-dev-server": "^1.16.2"
+  },
+  "dependencies": {
+    "react-async-script-loader": "^0.2.2"
   }
 }

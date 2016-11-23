@@ -4,12 +4,12 @@ import expect from 'expect';
 import expectJSX from 'expect-jsx';
 import { shallow } from 'enzyme';
 import { createRenderer } from 'react-addons-test-utils';
-import Instant2fa-component from '../src/Instant2fa-component';
+import Instant2FAComponent from '../src/Instant2FAComponent';
 
 expect.extend(expectJSX);
 
 /* eslint-disable no-undef */
-describe('Instant2fa-component', () => {
+describe('Instant2FAComponent', () => {
   it('should work', () => {
 
   });

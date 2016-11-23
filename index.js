@@ -1,2 +1,2 @@
-var Instant2FAComponent = require('./lib/Instant2fa-component').default;
+var Instant2FAComponent = require('./lib/Instant2FAComponent').default;
 module.exports = Instant2FAComponent;
