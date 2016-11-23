@@ -11,7 +11,7 @@ npm install --save instant2fa-component
 ```javascript
 // UserSettings.jsx
 import React from 'react';
-import Instant2FAComponent from './src/Instant2FAComponent.jsx';
+import Instant2FAComponent from 'instant2fa-component';
 
 const UserSettings = () => {
   return (
@@ -31,7 +31,7 @@ export default UserSettings;
 ```javascript
 // UserVerification.jsx
 import React from 'react';
-import Instant2FAComponent from './src/Instant2FAComponent.jsx';
+import Instant2FAComponent from 'instant2fa-component';
 
 const UserVerification = () => {
   const onEvent = (event) => {
