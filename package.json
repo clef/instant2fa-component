@@ -64,6 +64,6 @@
     "webpack-dev-server": "^1.16.2"
   },
   "dependencies": {
-    "react-async-script-loader": "^0.2.2"
+    "hoist-non-react-statics": "^1.2.0"
   }
 }

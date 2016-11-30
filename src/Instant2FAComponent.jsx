@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import ReactDOM from 'react-dom'
-import scriptLoader from 'react-async-script-loader'
+import scriptLoader from './react-async-script-loader'
 
 class Instant2FAComponent extends Component {
 
